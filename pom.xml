@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-pipelines-rne7</artifactId>
+  <artifactId>cs1632-cicd-pipelines-resquino88</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -37,7 +37,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-rne7</url>
+      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-resquino88</url>
     </repository>
   </distributionManagement>
 
