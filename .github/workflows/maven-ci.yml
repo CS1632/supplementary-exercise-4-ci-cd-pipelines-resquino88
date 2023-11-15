@@ -45,7 +45,7 @@ jobs:
         name: Jacoco coverage results
         path: target/site/jacoco
 
-    - name: Cache build
+    - name: Restore cached build
       uses: actions/cache@v3
       with:
         key: cached-build-${{github.sha}}
@@ -74,6 +74,7 @@ jobs:
 
   build:
     name: Build and analyze
+    needs: [maven_test]  # Enforces that maven_test runs first
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
